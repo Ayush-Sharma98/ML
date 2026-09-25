@@ -11,6 +11,7 @@ def encoder(data,col_list):
             mapping[V] = i
 
         data[col]=data[col].map(mapping)
+        return data
 
 
 
