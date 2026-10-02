@@ -61,6 +61,6 @@ def encoder(data,col_list):
         sq = diff**2
         mse = sq.sum()
         return mse
-
+ 
 
 
